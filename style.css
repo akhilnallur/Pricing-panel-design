@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -23,8 +26,24 @@ section {
     -webkit-box-shadow: 0px 12px 35px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 12px 35px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 12px 35px -10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .price-box{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.price-box .icon i{
+    font-size: 48px;
+}
+
+.price-box .icon:nth-child(1) h3:nth-child(1){
+    color: #ccc;
 }
